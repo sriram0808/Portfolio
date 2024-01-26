@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Assest/SR.jpg" type="image/x-icon">
     <title>Sri Ram</title>
+    <link rel="shortcut icon" href="./Assest/SR.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <!-- ************************************NAVBAR******************************************** -->
 <section class="back">
     <nav class="nav">
-        <div class="logo"><img src="./Assest/SR.jpg" alt="logo" height="90px" width="90px"></div>
+        <div class="logo"><img src="./Assest/SR.jpg" alt="logo" height="88px" width="88px"></div>
         <div class="name">SRI RAM R</div>
         <div class="list">
             <ul type="none">
@@ -38,7 +38,7 @@
 
     <!-- ************************************ABOUTME****************************************** -->
     <section class="about">
-        <div class="image"></div>
+        <div class="image"><img src="./Assest/profile.jpg" alt=""></div>
         <div class="aboutcontent">
             <h1>ABOUT ME</h1><br>
             <p>
@@ -62,11 +62,48 @@
               <h5>Keep your face always toward the sunshine—and shadows will fall behind you</h5>
         </div>
         
-        <div></div>
+        <div class="bar">
+           
+            <table>
+                <form>
+                    <tr>
+                        <td><label>HTML5</label></td>
+                        <td><progress id="file" value="95" max="100"> 32% </progress></td>
+                    </tr> <br>
+                    <tr>
+                        <td><label>CSS</label></td>
+                        <td><progress id="file" value="90" max="100"> 32% </progress>
+                        </td>  
+                     </tr> <br>
+                    <tr>
+                        <td><label>JAVASCRIPT</label></td>
+                        <td><progress id="file" value="75" max="100"> 32% </progress></td>
+                    </tr> <br>
+                    <tr>
+                        <td><label>REACTJS</label></td>
+                        <td><progress id="file" value="70" max="100" aria-placeholder="md"> 32% </progress>
+                        </td>
+                    </tr> <br>
+                    <tr>
+                        <td><label>CORE JAVA</label></td>
+                        <td><progress id="file" value="50" max="100" aria-placeholder="md"> 32% </progress></td>
+                    </tr> <br>
+                    <tr>
+                        <td><label>SQL</label></td>
+                        <td><progress id="file" value="60" max="100" aria-placeholder="md"> 32% </progress></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
 
     </section>
+    <!-- ****************************************RESUME******************************************* -->
+    <div class="res">
+        <h1>DOWNLOAD RESUME</h1>
+        <button onclick="Resume()">Download_Resume</button>
+    </div>
 
 
-    
+    <script src="./index.js"></script>
 </body>
 </html>
