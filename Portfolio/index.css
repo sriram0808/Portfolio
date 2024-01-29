@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+back{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    
+
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.logo{
+    height: 90px;
+    width: 15%;
+   padding-left: 65px;
+}
+.logo img{
+    border-radius: 100%;
+    
+    margin-left: 30px;
+}
+.name{
+    height: 90px;
+    width: 20%;
+    /* background-color: blue; */
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    /* padding-left: 10px; */
+    padding-right: 30px;
+    color: white;
+     
+}
+.list{
+    height: 90px;
+    width: 65%;
+    /* background-color: brown; */
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    color: white;
+    font-size: 16px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.list ul :hover{
+    color: chartreuse;
+}
+/* ********************************HOME************************ */
+.home{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.content{
+    height: 100vh;
+    width: 50%;
+    /* background-color: blueviolet; */
+    font-size: 40px;
+    text-align: center;
+    padding-top: 200px;
+    color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  .typewriter h5 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 10s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  .typewriter h3 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    /* 30% { border-color: white; }      */
+  }
+.profile{
+    height: 100vh;
+    width: 50%;
+    /* background-color: bisque; */
+    padding-left: 130px;
+}
+/* *************************************ABOUTME******************************** */
+.about{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.image{
+    height: 100vh;
+    width: 50%;
+    /* background-color: blue; */
+}
+.image img{
+    height: 78vh;
+    width: 70%;
+    padding-left: 55px;
+}
+.aboutcontent{
+    height: 100vh;
+    width: 50%;
+    /* background-color: red; */
+    
+}
+.aboutcontent h1{
+    font-size: 50px;
+    color: white;
+}
+.aboutcontent p{
+    font-size: 20px;
+    /* align-items: center; */
+    text-align: start;
+    color: rgb(131, 128, 128);
+}
+/* ******************************************MYSKILLS****************************************** */
+.skills{
+    height: 68vh;
+    width: 100%;
+    background-color: black;
+}
+.heading{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.heading h1{
+    font-size: 35px;
+    color: white;
+}
+.heading h5{
+    font-size: 18px;
+    color: rgb(131, 128, 128) ;
+    margin-top: 30px;
+}
+.bar{
+    height: 501px;
+    background-color: black;
+    padding-left: 350px;
+    padding-top: 30px;
+}
+.bar1{
+    height: 250px;
+    width: 50%;
+    background-color: beige;
+}
+.bar2{
+    height: 250px;
+    width: 50%;
+    background-color: blue;
+
+}
+progress{
+    height: 20px;
+    width: 600px;
+    color: blue;
+}
+label{
+    font-size: 20px;
+    color: white;
+}
+/* ******************************************RESUME************************************************** */
+.res{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+.res h1{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 440px;
+    color: white;
+}
+.res button{
+    height: 50px;
+    width: 350px;
+    border-radius: 27px;
+    margin-left: 520px;
+    margin-top: 80px;
+    background-color: black;
+    color: white ;
+    border: 1px solid white;
+    
+    cursor: pointer;
+    
+}
+.res button :hover{
+    box-shadow: 0px 0px 30px white;
+    cursor: pointer;
+
+}
+  /* **************************************************PROJECT******************************************** */
+.project{
+    height: 80vh;
+    width: 100%;
+    background-color: aqua;
+}
+/* ***************************************************CONTACTME********************************************* */
+.contactme{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 100px;
+    padding-left: 160px;
+    color: white;
+}
+.contactme h1{
+   padding-left: 400px;
+   font-size: 40px;
+   padding-bottom: 50px;
+}
+
+.contact{
+    height: 40vh;
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.contactme>.contact>.s1{
+    height: 250px;
+    width: 250px;
+    /* background-color: bisque; */
+    color: white;
+}
+.contactme>.contact>.s1> img{
+    height: 60px;
+    width: 60px;
+    /* padding-left: 30px; */
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.contactme>.contact>.s1> p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.con{
+    height: 80px;
+    width: 180px;
+    /* background-color: blue; */
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: 130px;
+}
+.con img{
+    height: 35px;
+    width: 35px;
+    
+}
+
+div.relative {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color:red;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 0px;
+  height:570px;
+  width:1450px;
+  background-color:blue;
+  /* background: transparent; */
+}
