@@ -15,7 +15,7 @@ back{
     width: 100%;
     background-color: black;
     display: flex;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px solid white;
 }
 .logo{
     height: 90px;
@@ -52,6 +52,14 @@ back{
     color: white;
     font-size: 16px;
 }
+.navbar a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.list ul :hover{
+    color: chartreuse;
+}
 /* ********************************HOME************************ */
 .home{
     height: 90vh;
@@ -67,6 +75,7 @@ back{
     text-align: center;
     padding-top: 200px;
     color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
 }
 .typewriter h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -180,6 +189,17 @@ back{
     padding-left: 350px;
     padding-top: 30px;
 }
+.bar1{
+    height: 250px;
+    width: 50%;
+    background-color: beige;
+}
+.bar2{
+    height: 250px;
+    width: 50%;
+    background-color: blue;
+
+}
 progress{
     height: 20px;
     width: 600px;
@@ -219,5 +239,92 @@ label{
     cursor: pointer;
 
 }
-  
-  
+  /* **************************************************PROJECT******************************************** */
+.project{
+    height: 80vh;
+    width: 100%;
+    background-color: aqua;
+}
+/* ***************************************************CONTACTME********************************************* */
+.contactme{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 100px;
+    padding-left: 160px;
+    color: white;
+}
+.contactme h1{
+   padding-left: 400px;
+   font-size: 40px;
+   padding-bottom: 50px;
+}
+
+.contact{
+    height: 40vh;
+    width: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.contactme>.contact>.s1{
+    height: 250px;
+    width: 250px;
+    /* background-color: bisque; */
+    color: white;
+}
+.contactme>.contact>.s1> img{
+    height: 60px;
+    width: 60px;
+    /* padding-left: 30px; */
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.contactme>.contact>.s1> p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.con{
+    height: 80px;
+    width: 180px;
+    /* background-color: blue; */
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: 130px;
+}
+.con img{
+    height: 35px;
+    width: 35px;
+    
+}
+
+div.relative {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color:red;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 0px;
+  height:570px;
+  width:1450px;
+  /* background-color:blue; */
+  /* background: transparent; */
+}
+div h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40%;
+}
