@@ -177,6 +177,8 @@ back{
 .heading h1{
     font-size: 35px;
     color: white;
+    /* margin-left: 500px; */
+    margin-right: 580px;
 }
 .heading h5{
     font-size: 18px;
@@ -218,7 +220,8 @@ label{
 .res h1{
     font-size: 50px;
     padding-top: 30px;
-    padding-left: 440px;
+    /* padding-left: 0px; */
+    margin-left: 440px;
     color: white;
 }
 .res button{
